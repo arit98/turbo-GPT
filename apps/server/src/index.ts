@@ -12,7 +12,7 @@ const model = new LlamaModel({
   modelPath: path.join(
     __dirname,
     "../models",
-    "capybarahermes-2.5-mistral-7b.Q4_K_M.gguf"
+    "Meta-Llama-3.1-8B-Instruct-Q8_0.gguf"
   ),
 });
 const context = new LlamaContext({ model });
